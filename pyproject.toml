@@ -1,0 +1,28 @@
+[project]
+name = "hw"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "catboost>=1.2.8",
+    "icecream>=2.1.8",
+    "ipykernel>=6.30.1",
+    "jupyterlab>=4.4.7",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "pandas>=2.3.2",
+    "plotly>=6.3.1",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "torch>=2.9.0",
+    "torchvision>=0.24.0",
+    "tqdm>=4.67.1",
+    "ipywidgets>=8.1.5",
+    "opencv-python>=4.11.0.86",
+    "scikit-image>=0.25.2",
+    "torchsummary>=1.5.1",
+    "torchmetrics[detection]>=1.8.2",
+    "segmentation-models-pytorch>=0.5.0",
+    "albumentations>=2.0.8",
+    "datasets>=4.4.1",
+    "kagglehub>=0.3.13",
+]
